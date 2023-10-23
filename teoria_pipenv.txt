@@ -1,0 +1,6 @@
+pippenv sirve para crear entrornos virtuala atraves de nuestro python principal y asi poder instalar librerias solo por poryecto sin que afecte a todo el entorno
+
+pip list es para ver los paquetes que tengo instalado
+
+pipenv graph es para ver los paquetes insaltados en el entorno virtual
+pipenv install django django-ckeditor Pillow pylintpylint-django

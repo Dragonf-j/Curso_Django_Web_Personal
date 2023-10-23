@@ -1,0 +1,11 @@
+Se debe crear la carpeta de las pantillas en el la app
+la carpeta de las palntillas se debe llamar tempaltes
+para añadir tempaltes tenemos que hacer return render(request, nombreCarpeta/nombreplantilla.html)
+luego añadir las apps en el settins en el paartado de apps
+
+se puede crear un html base con todo y luego añadir la informacion denamicamente con "{% extends 'core/base.html' %} --> esto se pone en los ficheros dinamicos
+
+
+{% block content %} {% endblock %} --> esto se pone en el ficheor base y en los dinamicos
+
+COn {% url 'home' %}" y el nombre que le hemos asiganado en urls podemos introducir de forma dicanamica todas las urls de la web
