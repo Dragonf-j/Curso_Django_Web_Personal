@@ -7,6 +7,7 @@ class Project(models.Model):
     image = models.ImageField(verbose_name= 'Imagen', upload_to='projects')
     created= models.TimeField(auto_now_add=True, verbose_name= 'Fecha de creación')
     updated = models.TimeField(auto_now=True, verbose_name= 'fecha de modificación')
+    link = models.URLField(null= True, blank= True)
 
     class Meta:
         verbose_name = 'proyecto'
